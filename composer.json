@@ -12,7 +12,7 @@
       "email": "admin@zhouchunyu.com",
       "homepage": "https://github.com/chunyu-zhou",
       "role": "Developer"
-    },
+    }
   ],
   "require": {
     "php": ">=5.3.3",
