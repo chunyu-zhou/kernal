@@ -1,0 +1,30 @@
+{
+  "name": "chunyu/kernal",
+  "description": "PhalApi 2.x 框架核心部分-优化版。",
+  "keywords": [
+    "api", "phalapi", "framework"
+  ],
+  "license": "GPL-3.0+",
+  "homepage": "https://www.phalapi.net/",
+  "authors": [
+    {
+      "name": "One",
+      "email": "admin@zhouchunyu.com",
+      "homepage": "https://github.com/chunyu-zhou",
+      "role": "Developer"
+    },
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "phalapi/notorm": "2.0.1"
+  },
+  "autoload": {
+    "files": [
+      "src/bootstrap.php",
+      "src/functions.php"
+    ],
+    "psr-4": {
+      "PhalApi\\": "src"
+    }
+  }
+}
